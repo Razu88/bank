@@ -1,17 +1,103 @@
 body {
-	font-family: Arial, sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-image: url("images/crypto1.png");
+    background-size: cover;
+    background-color: #F6F6F6;
+    color: #333333;
 }
 
 h1 {
-	text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
 }
 
-form {
-	text-align: center;
+label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #666666;
 }
 
-canvas {
-	display: block;
-	margin: 0 auto;
-	border: 1px solid black;
+input[type="number"] {
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #FFFFFF;
+    color: #333333;
+    border: 1px solid #CCCCCC;
+}
+
+button {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #FFFFFF;
+    color: #333333;
+    border: 1px solid #CCCCCC;
+}
+
+.word-art {
+    font-size: 72px;
+    font-weight: bold;
+    text-shadow: 0 0 5px #FFD700, 0 0 10px #FFD700, 0 0 20px #FFD700;
+    animation: blink 4s infinite;
+    color: #FFD700;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 100vh;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+}
+
+.balance {
+    text-align: center;
+    margin-right: 150px;
+    font-size: 64px;
+    color: #FFFFFF;
+    width: 300px;
+    height: 200px;
+    border: 10px solid #FFD700;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0px 0px 10px rgba(255, 215, 0, 0.8);
+}
+
+.controls {
+    text-align: center;
+}
+
+.controls input[type="number"] {
+    width: 50px;
+    font-size: 24px;
+}
+
+.controls input[type="button"] {
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.controls input[type="button"]:hover {
+    cursor: pointer;
+}
+
+.virtual-currency {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px rgba(255, 215, 0, 0.8), 0px 0px 20px rgba(255, 215, 0, 0.8), 0px 0px 30px rgba(255, 215, 0, 0.8);
 }
